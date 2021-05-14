@@ -1,0 +1,90 @@
+SCROLL_STYLE = tags$style(HTML(' @import url(https://fonts.googleapis.com/css?family=Josefin+Sans:300,400);
+* {
+                                  margin: 0;
+                                  padding: 0;
+                                  }
+                                  html, body {
+                                  height: 100%;
+                                  }
+                                
+                                  
+                                  .demo a {
+                                  position: absolute;
+                                  bottom: 5%;
+                                  left: 52%;
+                                  z-index: 2;
+                                  display: inline-block;
+                                  -webkit-transform: translate(0, -50%);
+                                  transform: translate(0, -50%);
+                                  color: #ffffff;
+                                  font : normal 400 20px/1 "Josefin Sans", sans-serif;
+                                  letter-spacing: .1em;
+                                  text-decoration: none;
+                                  transition: opacity .3s;
+                                  }
+                                  .demo a:hover {
+                                  opacity: .5;
+                                  }
+                                  
+                                  
+                                  #div10 a {
+                                  padding-top: 60px;
+                                  }
+                                  #div10 a span {
+                                  position: absolute;
+                                  top: 0;
+                                  left: 50%;
+                                  width: 30px;
+                                  height: 50px;
+                                  margin-left: -15px;
+                                  border: 2px solid #ffffff;
+                                  border-radius: 50px;
+                                  box-sizing: border-box;
+                                  }
+                                  #div10 a span::before {
+                                  position: absolute;
+                                  top: 10px;
+                                  left: 50%;
+                                  content: "";
+                                  width: 6px;
+                                  height: 6px;
+                                  margin-left: -3px;
+                                  background-color: #ffffff;
+                                  border-radius: 100%;
+                                  -webkit-animation: sdb10 2s infinite;
+                                  animation: sdb10 2s infinite;
+                                  box-sizing: border-box;
+                                  }
+                                  @-webkit-keyframes sdb10 {
+                                  0% {
+                                  -webkit-transform: translate(0, 0);
+                                  opacity: 0;
+                                  }
+                                  40% {
+                                  opacity: 1;
+                                  }
+                                  80% {
+                                  -webkit-transform: translate(0, 20px);
+                                  opacity: 0;
+                                  }
+                                  100% {
+                                  opacity: 0;
+                                  }
+                                  }
+                                  @keyframes sdb10 {
+                                  0% {
+                                  transform: translate(0, 0);
+                                  opacity: 0;
+                                  }
+                                  40% {
+                                  opacity: 1;
+                                  }
+                                  80% {
+                                  transform: translate(0, 20px);
+                                  opacity: 0;
+                                  }
+                                  100% {
+                                  opacity: 0;
+                                  }
+                                  }
+                                  '))
